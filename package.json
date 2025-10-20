@@ -1,0 +1,11 @@
+{
+  "name": "slack-azure-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0"
+  }
+}
