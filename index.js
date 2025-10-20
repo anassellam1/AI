@@ -1,6 +1,8 @@
 import 'dotenv/config';
-import { App, ExpressReceiver } from '@slack/bolt';
+import bolt from '@slack/bolt';
 import axios from 'axios';
+
+const { App, ExpressReceiver } = bolt;
 
 // In-memory install store (replace with DB for production)
 const installations = {};
